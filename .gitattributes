@@ -1,0 +1,2 @@
+cl_demo_api/checkpoints/best_localiser-resunet_gt_noroi.pth filter=lfs diff=lfs merge=lfs -text
+cl_demo_api/checkpoints/best-resunet_segmenter.pth filter=lfs diff=lfs merge=lfs -text
