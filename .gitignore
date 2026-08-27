@@ -1,0 +1,82 @@
+# =========================
+# Backend / Python API
+# =========================
+
+# Virtual environments
+cl_demo_api/.venv/
+cl_demo_api/venv/
+cl_demo_api/env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python tooling
+cl_demo_api/.pytest_cache/
+cl_demo_api/.mypy_cache/
+cl_demo_api/.ruff_cache/
+cl_demo_api/.coverage
+cl_demo_api/htmlcov/
+
+# Environment / secrets
+cl_demo_api/.env
+cl_demo_api/.env.*
+!cl_demo_api/.env.example
+
+# Logs
+cl_demo_api/*.log
+cl_demo_api/logs/
+
+
+# =========================
+# Frontend / Dashboard
+# =========================
+
+# Dependencies
+dashboard/node_modules/
+
+# Next.js
+dashboard/.next/
+dashboard/out/
+
+# Build output
+dashboard/build/
+dashboard/dist/
+
+# Testing
+dashboard/coverage/
+
+# Environment / secrets
+dashboard/.env
+dashboard/.env.*
+!dashboard/.env.example
+
+# Vercel
+dashboard/.vercel/
+
+# Debug logs
+dashboard/npm-debug.log*
+dashboard/yarn-debug.log*
+dashboard/yarn-error.log*
+dashboard/pnpm-debug.log*
+
+# TypeScript
+dashboard/*.tsbuildinfo
+dashboard/next-env.d.ts
+
+
+# =========================
+# General
+# =========================
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Certificates / keys
+*.pem
