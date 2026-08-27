@@ -4,8 +4,10 @@ export function Header() {
       <span className="uppercase text-teal-400">
         MDHDS Capstone Demo
       </span>
-      <div className="flex flex-row justify-end gap-2 [&>a]:hover:text-teal-400 [&>a]:hover:underline [&>a]:transition">
+      <div className="flex flex-row justify-end gap-4 [&>a]:hover:text-teal-400 [&>a]:hover:underline [&>a]:transition">
         <a href="/">Demo</a>
+        <a href="/context">Context</a>
+        <a href="/methodology">Methodology</a>
       </div>
     </header>
   )

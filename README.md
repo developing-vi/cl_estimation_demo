@@ -37,8 +37,7 @@ This is the **ResUNet, no-ROI** configuration, which was the best-performing
 pipeline in the underlying thesis (CL-MAE 28.74px, vs. 38.47px for the
 U-Net baseline) — segmentation-overlap metrics alone (Dice, IoU) turned out
 not to predict downstream measurement accuracy as reliably as pipeline
-*robustness* did. Full methodology, evaluation, and discussion are in the
-[capstone report](https://github.com/developing-vi/cl_estimation).
+*robustness* did.
 
 ## Repo structure
 
@@ -114,10 +113,8 @@ image/png). Returns:
 ## Data & ethics
 
 Images are drawn from the publicly available, de-identified [Farràs et al.
-TVUS dataset](https://data.mendeley.com) (Mendeley Data) — not private
-patient data. No new patient data was collected for this project. See the
-[capstone report's Ethics Statement](https://github.com/developing-vi/cl_estimation)
-for full details.
+TVUS dataset](https://data.mendeley.com/datasets/s27zfxgbpj/2) (Mendeley Data) — not private
+patient data. No new patient data was collected for this project.
 
 ## Limitations
 

@@ -34,9 +34,9 @@ export default function Home() {
     <main className="flex flex-col gap-8">
       <div className="flex flex-col gap-2">
         <h1 className="text-3xl font-semibold">Automated Cervical Length (CL) Estimation</h1>
-        <p className="max-w-xl text-sm text-slate-400">
+        <p className="text-sm text-slate-400">
           ResUNet segmentation + heatmap landmark localisation, trained on the Farr&agrave;s et al. transvaginal
-          ultrasound dataset. Technical feasibility demo &mdash; not validated for clinical use.
+          ultrasound dataset. This is a technical feasibility demo and is <em>not validated for clinical use.</em>
         </p>
       </div>
 
