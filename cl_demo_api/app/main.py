@@ -35,7 +35,7 @@ app = FastAPI(title="Cervical Length Estimation API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://cl-estimation-demo.vercel.app/", "http://localhost:3000"],
+    allow_origins=["https://cl-estimation-demo.vercel.app", "http://localhost:3000"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
